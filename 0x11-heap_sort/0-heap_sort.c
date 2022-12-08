@@ -51,7 +51,7 @@ void heap_sort(int *array, size_t size)
 
 	for (x = size - 1; x >= 0; x--)
 	{
-		swap(&array[0], &array[x]);
+		swap_element(&array[0], &array[x]);
 		if (x != 0)
 			print_array(array, size);
 		make_heap(array, x, 0, size);
