@@ -36,7 +36,7 @@ void merge_func(int *array, int *arr, int primary, int middle, int final)
 }
 
 /**
- * split - function that splits an array
+ * split_func - function that splits an array
  * @array: array to ordered
  * @arr: aux array
  * @primary: primary index
